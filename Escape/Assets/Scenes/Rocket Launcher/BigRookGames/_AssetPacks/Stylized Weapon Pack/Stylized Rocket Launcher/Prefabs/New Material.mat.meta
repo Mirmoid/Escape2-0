@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Escape/Assets/Scenes/Rocket Launcher/BigRookGames/_AssetPacks/Stylized Weapon Pack/Stylized Rocket Launcher/Prefabs/New Material.mat.meta
 guid: a568dc44fcd784f4d8ff8bffd254450c
 NativeFormatImporter:
+========
+guid: 8f7655d011cae2e4083603d155e65b69
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> Stashed changes:Escape/Assets/Scenes/Rocket Launcher.meta
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 
