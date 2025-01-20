@@ -26,6 +26,6 @@ AssetOrigin:
   packageName: Stylized Rocket Launcher Complete Kit with Visual Effects and Sound
     - Hand Painted Bazooka - HQ Toon Weapon Set
   packageVersion: 1.0
-  assetPath: Assets/Scenes/BigRookGames/_AssetPacks/Stylized Weapon Pack/Stylized
-    Rocket Launcher/Audio/RocketLauncherEquip.wav
+  assetPath: Assets/BigRookGames/_AssetPacks/Stylized Weapon Pack/Stylized Rocket
+    Launcher/Audio/RocketLauncherEquip.wav
   uploadId: 389310

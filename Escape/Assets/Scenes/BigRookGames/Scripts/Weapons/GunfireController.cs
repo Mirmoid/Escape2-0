@@ -26,7 +26,6 @@ namespace BigRookGames.Weapons
         public GameObject scope;
         public bool scopeActive = true;
         private bool lastScopeState;
-        private bool targetHit;
 
         // --- Projectile ---
         [Tooltip("The projectile gameobject to instantiate each time the weapon is fired.")]
@@ -58,7 +57,10 @@ namespace BigRookGames.Weapons
             // --- Fires the weapon if the delay time period has passed since the last shot ---
             if (Input.GetMouseButtonDown(0))
             {
-                FireWeapon();
+                if (autoFire && ((timeLastFired + shotDelay) <= Time.time))
+                {
+                    FireWeapon();
+                }
             }
 
             // --- Toggle scope based on public variable value ---
@@ -68,7 +70,6 @@ namespace BigRookGames.Weapons
                 scope.SetActive(scopeActive);
             }
         }
-
 
         /// <summary>
         /// Creates an instance of the muzzle flash.
@@ -86,7 +87,7 @@ namespace BigRookGames.Weapons
             // --- Shoot Projectile Object ---
             if (projectilePrefab != null)
             {
-                GameObject newProjectile = Instantiate(projectilePrefab, muzzlePosition.transform.position, muzzlePosition.transform.rotation);
+                GameObject newProjectile = Instantiate(projectilePrefab, muzzlePosition.transform.position, muzzlePosition.transform.rotation, transform);
             }
 
             // --- Disable any gameobjects, if needed ---
