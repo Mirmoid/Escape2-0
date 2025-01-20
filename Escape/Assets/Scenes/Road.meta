@@ -1,17 +1,9 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Escape/Assets/Scenes/Road.meta
 guid: f8f6340a5c49b0147ab211cc433929f5
 ========
 guid: 8f7655d011cae2e4083603d155e65b69
 >>>>>>>> Stashed changes:Escape/Assets/Scenes/Rocket Launcher.meta
-=======
-<<<<<<<< Updated upstream:Escape/Assets/Scenes/Terrain.meta
-guid: 001a9f4bfa8b1f446a37ff616e405022
-========
-guid: f8f6340a5c49b0147ab211cc433929f5
->>>>>>>> Stashed changes:Escape/Assets/Scenes/Road.meta
->>>>>>> Stashed changes
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
