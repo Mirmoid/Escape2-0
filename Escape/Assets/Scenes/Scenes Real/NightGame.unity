@@ -27,7 +27,11 @@ RenderSettings:
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_SkyboxMaterial: {fileID: 2100000, guid: a2bb30fd179f2744a9fc76c9cd9b4034, type: 2}
+=======
+  m_SkyboxMaterial: {fileID: 2100000, guid: eac2ef371405749e0bd050b4c3272f16, type: 2}
+>>>>>>> Stashed changes
 =======
   m_SkyboxMaterial: {fileID: 2100000, guid: eac2ef371405749e0bd050b4c3272f16, type: 2}
 >>>>>>> Stashed changes
@@ -705,7 +709,11 @@ Transform:
   m_GameObject: {fileID: 315136619}
   serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalRotation: {x: -0.6684382, y: -0.7106074, z: 0.21258545, w: -0.055091377}
+=======
+  m_LocalRotation: {x: -0.67450047, y: -0.7119377, z: 0.19248703, w: -0.033801533}
+>>>>>>> Stashed changes
 =======
   m_LocalRotation: {x: -0.67450047, y: -0.7119377, z: 0.19248703, w: -0.033801533}
 >>>>>>> Stashed changes
@@ -715,7 +723,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalEulerAnglesHint: {x: -202.073, y: 12.837997, z: -90.98901}
+=======
+  m_LocalEulerAnglesHint: {x: -198.643, y: 12.899994, z: -90.96701}
+>>>>>>> Stashed changes
 =======
   m_LocalEulerAnglesHint: {x: -198.643, y: 12.899994, z: -90.96701}
 >>>>>>> Stashed changes

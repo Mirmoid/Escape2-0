@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Escape/Assets/Scenes/Player.meta
 guid: 03dc37a939359ad4a9d674c77cc199ed
+========
+guid: f8f6340a5c49b0147ab211cc433929f5
+>>>>>>>> Stashed changes:Escape/Assets/Scenes/Road.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
